@@ -1,5 +1,5 @@
 ---
-title: Article One
+title: Article One test
 featuredImage: /uploads/heello.jpg
 ---
 
