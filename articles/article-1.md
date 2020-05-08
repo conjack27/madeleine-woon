@@ -1,6 +1,6 @@
 ---
 title: Article One
-featuredImage: /uploads/heelo.jpg
+featuredImage: /uploads/heello.jpg
 ---
 
 # Article One
