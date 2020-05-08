@@ -1,6 +1,6 @@
 ---
 title: Article Three
-featuredImage: /uploads/heelo.jpg
+featuredImage: /uploads/823e591cdb212de1e25ac5d7bf40af2a.jpg
 ---
 
 # Article Three
