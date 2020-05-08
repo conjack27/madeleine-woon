@@ -14,7 +14,8 @@
 query Post ($path: String!) {
     post: post (path: $path) {
         title
-        content
+        content,
+        featuredImage
     }
 }
 </page-query>
