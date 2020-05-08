@@ -1,6 +1,6 @@
 ---
 title: Article Three
-featuredImage: /uploads/puppy1.jpg
+featuredImage: /uploads/heelo.jpg
 ---
 
 # Article Three
