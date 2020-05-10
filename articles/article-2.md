@@ -1,7 +1,7 @@
 ---
 title: Article Two
 publication: Harpers Bazaar
-date: 2020-02-05T14:42:03.861Z
+date: 2009-06-17T13:42:03.861Z
 ---
 
 # Article Two
