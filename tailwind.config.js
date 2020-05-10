@@ -1,5 +1,8 @@
 module.exports = {
-  purge: [],
+  purge: [
+    './src/**/*.html',
+    './src/**/*.vue'
+  ],
   theme: {
     colors: {
       indigo: '#5c6ac4',
