@@ -65,6 +65,8 @@ query Posts {
         id
         title
         path
+        date
+        publication
       }
     }
   }
