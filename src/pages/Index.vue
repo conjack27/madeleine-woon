@@ -21,8 +21,6 @@
   </Layout>
 </template>
 
-
-
 <script>
 
 import Flickity from 'vue-flickity';

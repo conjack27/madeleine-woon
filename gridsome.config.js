@@ -17,21 +17,17 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'commercials/**/*.md',
-        typeName: 'Commercials',
-        remark: {
-          // remark options
-        }
+        path: 'blog/**/*.md',
+        typeName: 'Post',
+        remark: {}
       }
     },
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'editorials/**/*.md',
-        typeName: 'Editorials',
-        remark: {
-          // remark options
-        }
+        path: 'blog/**/*.md',
+        typeName: 'Post',
+        remark: {}
       }
     }
   ],
