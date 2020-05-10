@@ -17,17 +17,11 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'blog/**/*.md',
+        path: 'articles/**/*.md',
         typeName: 'Post',
-        remark: {}
-      }
-    },
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: 'blog/**/*.md',
-        typeName: 'Post',
-        remark: {}
+        remark: {
+          // remark options
+        }
       }
     }
   ],

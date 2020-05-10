@@ -18,11 +18,31 @@
       <div class="carousel-cell">5</div>
     </flickity>
 
+    <ul>
+      <li v-for="post in $page.posts.edges" :key="post.id">
+        <g-link :to="post.node.path"> {{ post.node.title }} </g-link>
+      </li>
+    </ul>
+
   </Layout>
 </template>
 
-<script>
 
+<page-query>
+query Posts {
+  posts: allPost {
+    edges {
+      node {
+        id
+        title
+        path
+      }
+    }
+  }
+}
+</page-query>
+
+<script>
 import Flickity from 'vue-flickity';
 export default {
    components: { 
@@ -58,6 +78,4 @@ export default {
 </script>
 
 <style>
-
-
 </style>
