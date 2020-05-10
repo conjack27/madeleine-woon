@@ -8,6 +8,13 @@ module.exports = {
   siteName: 'Gridsome',
   plugins: [
     {
+      use: 'gridsome-plugin-tailwindcss',
+      purge: [
+        './src/**/*.html',
+        './src/**/*.vue'
+      ],
+    },
+    {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'articles/**/*.md',

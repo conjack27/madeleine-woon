@@ -20,9 +20,6 @@ query Post ($path: String!) {
 }
 </page-query>
 
-
-
-
 <script>
 export default {
     metaInfo() {
@@ -36,7 +33,6 @@ export default {
 <style>
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css");
-
 
 .markdown-body {
   box-sizing: border-box;

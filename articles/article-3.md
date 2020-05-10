@@ -1,7 +1,7 @@
 ---
 title: Article Three
 featuredImage: /uploads/823e591cdb212de1e25ac5d7bf40af2a.jpg
----
+--- 
 
 # Article Three
 
