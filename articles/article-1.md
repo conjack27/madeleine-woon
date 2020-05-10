@@ -1,6 +1,7 @@
 ---
 title: Article One test
 publication: Vogue Italia
+date: 2020-05-06T13:41:43.917Z
 ---
 
 # Article One
