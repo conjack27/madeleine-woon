@@ -1,6 +1,5 @@
 ---
 title: Article One test
-featuredImage: /uploads/heello.jpg
 publication: Vogue Italia
 ---
 

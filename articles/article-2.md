@@ -1,6 +1,5 @@
 ---
 title: Article Two
-featuredImage: /uploads/photo-1583127667348-22da6d3165b8.jpg
 publication: Harpers Bazaar
 ---
 
