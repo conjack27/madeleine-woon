@@ -1,5 +1,5 @@
 ---
-title: Article One test
+title: commercial article
 publication: Vogue Italia
 date: 2020-03-24T15:29:14.655Z
 ---
