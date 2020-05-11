@@ -11,10 +11,10 @@
           </button>
         </div>
         <div class="w-full block flex-grow lg:flex lg:w-auto text-sm lg:justify-end">
-          <g-link to="/articles/" class="block mr-8 mt-4 lg:inline-block lg:mt-0 hover:text-white">
+          <g-link to="/editorials/" class="block mr-8 mt-4 lg:inline-block lg:mt-0 hover:text-white">
             Editorial
           </g-link>
-          <g-link to="/articles/" class="block mr-8 mt-4 lg:inline-block lg:mt-0 hover:text-white">
+          <g-link to="/commercials/" class="block mr-8 mt-4 lg:inline-block lg:mt-0 hover:text-white">
             Commercial
           </g-link>
           <g-link to="/about/" class="block mr-8 mt-4 lg:inline-block lg:mt-0 hover:text-white mr-4">
