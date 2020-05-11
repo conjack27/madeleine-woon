@@ -3,7 +3,7 @@
     <header class="">
       <nav class="flex items-center justify-between flex-wrap p-6 pl-0">
         <div class="flex items-center flex-shrink-0">
-          <span class="font-semibold text-xl tracking-tight">Madeleine Woon</span>
+          <g-link to="/" class="font-semibold text-xl tracking-tight">Madeleine Woon</g-link>
         </div>
         <div class="block lg:hidden">
           <button class="flex items-center px-3 py-2 border rounded border-teal-400 hover:text-white hover:border-white">

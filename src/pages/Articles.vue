@@ -25,19 +25,19 @@
               </tr>
 			</thead>
 			<tbody class="flex-1 sm:flex-none">
-				<tr v-for="post in $page.posts.edges" :key="post.id" class="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0 border-b relative">
+				<!-- <tr v-for="post in $page.posts.edges" :key="post.id" class="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0 border-b relative">
 					<td class="p-4"><g-link class="block w-full h-full" :to="post.node.path">{{ post.node.title }}</g-link></td>
 					<td class="p-4"><g-link class="block w-full h-full" :to="post.node.path">{{ post.node.publication }}</g-link></td>
 					<td class="p-4"><g-link class="block w-full h-full" :to="post.node.path">{{ post.node.date }}</g-link></td>
-				</tr>
+				</tr> -->
 			</tbody>
 		</table>
     </div>
 
     <ul>
-      <li v-for="post in $page.posts.edges" :key="post.id">
+      <!-- <li v-for="post in $page.posts.edges" :key="post.id">
         <g-link :to="post.node.path"> {{ post.node.title }} </g-link>
-      </li>
+      </li> -->
     </ul>
   </Layout>
 </template>
@@ -47,11 +47,7 @@ query Posts {
   posts: allPost {
     edges {
       node {
-        id
-        title
-        path
-        date
-        publication
+       
       }
     }
   }
@@ -61,7 +57,16 @@ query Posts {
 <script>
 export default {
   metaInfo: {
-    title: 'Articles'
+    title: 'Articles',
+  },
+  created() {
+    // this.$page.posts.edges.forEach(post => {
+    //   const parsedDate = new Date(post.node.date).toDateString();
+    //   console.log(parsedDate);
+    //   //I need to set the dates in the table to the parsed dates
+    //   post.node.date = parsedDate;
+    // });
+
   }
 }
 </script>
