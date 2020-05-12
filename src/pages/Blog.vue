@@ -43,19 +43,19 @@
 </template>
 
 <page-query>
-query Posts {
-  posts: allPost {
-    edges {
-      node {
-        id
-        title
-        path
-        date
-        publication
+  query Posts {
+    posts: allPost {
+      edges {
+        node {
+          id
+          title
+          path
+          date
+          publication
+        }
       }
     }
   }
-}
 </page-query>
 
 <script>
