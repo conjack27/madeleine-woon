@@ -62,6 +62,12 @@
 export default {
   metaInfo: {
     title: 'Articles'
+  },
+  created() {
+    this.$page.commercial.edges.forEach(post => {
+      const parsedDate = new Date(post.node.date).toDateString();
+      post.node.date = parsedDate;
+    });
   }
 }
 </script>

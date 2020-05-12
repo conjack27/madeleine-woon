@@ -1,7 +1,7 @@
 <template>
     <ClientOnly>
         <Layout>
-            <div class="markdown-body">
+            <div class="markdown-body max-w-screen-md">
                 <h1>{{ $page.editorial.title }}</h1>
                 <div v-html="$page.editorial.content"></div>
             </div>
