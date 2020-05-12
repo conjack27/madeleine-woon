@@ -33,6 +33,16 @@ module.exports = {
           // remark options
         }
       }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'commercials/**/*.md',
+        typeName: 'Commercial',
+        remark: {
+          // remark options
+        }
+      }
     }
   ],
   transformers: {

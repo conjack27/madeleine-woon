@@ -2,16 +2,16 @@
     <ClientOnly>
         <Layout>
             <div class="markdown-body">
-                <h1>{{ $page.editorial.title }}</h1>
-                <div v-html="$page.editorial.content"></div>
+                <h1>{{ $page.commercial.title }}</h1>
+                <div v-html="$page.commercial.content"></div>
             </div>
         </Layout>
     </ClientOnly>
 </template>
 
 <page-query>
-query Editorial ($path: String!) {
-    editorial: editorial (path: $path) {
+query Commercial ($path: String!) {
+    commercial: commercial (path: $path) {
         title
         content
         date
@@ -24,7 +24,7 @@ query Editorial ($path: String!) {
 export default {
     metaInfo() {
         return {
-            title: this.$page.editorial.title
+            title: this.$page.commercial.title
         }
     }    
 }
