@@ -1,9 +1,9 @@
 <template>
     <ClientOnly>
         <Layout>
-            <div class="markdown-body">
-                <h1>{{ $page.commercial.title }}</h1>
-                <div v-html="$page.commercial.content"></div>
+            <div class="max-w-screen-md mb-8 mt-8 container mx-auto font-body article">
+                <h1 class="text-4xl text-center mb-8 font-bold">{{ $page.commercial.title }}</h1>
+                <div class="text-xl" v-html="$page.commercial.content"></div>
             </div>
         </Layout>
     </ClientOnly>
@@ -31,17 +31,7 @@ export default {
 </script>
 
 <style>
-@import url("https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css");
-.markdown-body {
-  box-sizing: border-box;
-  min-width: 200px;
-  max-width: 980px;
-  margin: 0 auto;
-  padding: 45px;
-}
-@media (max-width: 767px) {
-  .markdown-body {
-    padding: 15px;
-  }
-}
+    .article img{
+        margin: 20px auto;
+    }
 </style>

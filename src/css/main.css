@@ -1,3 +1,11 @@
+@font-face {
+    font-family: Whyte-Book;
+    src: url('../assets/fonts/whyte-book/Whyte-Book.otf');
+    src: url('../assets/fonts/whyte-book/Whyte-Book.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../assets/fonts/whyte-book/Whyte-Book.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../assets/fonts/whyte-book/Whyte-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
 @tailwind base;
 
 @tailwind components;
