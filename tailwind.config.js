@@ -14,6 +14,11 @@ module.exports = {
       pink: '#F2D0C9',
       white: '#FFFFFF',
       black: '#000000'
+    },
+    height: {
+      lg: '700px',
+      full: '100%',
+      auto: 'auto'
     }
   },
   variants: {},

@@ -1,6 +1,6 @@
 <template>
   <Layout>
-   <div class="flex flex-col">
+   <div class="layout container mx-auto flex flex-col">
      <table class="w-full flex flex-row flex-no-wrap overflow-hidden my-5">
 			<thead class="sm:border-b sm:border-t">
 				<tr v-for="commercial in $page.commercial.edges" :key="commercial.id" class="block border-b flex flex-col flex-no wrap sm:table-row sm:mb-0">

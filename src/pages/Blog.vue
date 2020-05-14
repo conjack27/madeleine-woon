@@ -1,5 +1,6 @@
 <template>
   <Layout>
+    <div class="layout container mx-auto"></div>
    <div class="flex flex-col">
      <table class="w-full flex flex-row flex-no-wrap overflow-hidden my-5 border-b">
 			<thead class="border-b border-t">

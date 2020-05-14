@@ -1,37 +1,37 @@
 <template>
   <Layout>
-   <div class="flex flex-col">
-     <table class="w-full flex flex-row flex-no-wrap overflow-hidden my-5 border-b">
-			<thead class="border-b border-t">
-				<tr  class="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0">
-					<th class="p-3 pl-0 text-left">Title</th>
-					<th class="p-3 pl-0 text-left">Publication</th>
-					<th class="p-3 pl-0 text-left" width="110px">Date</th>
-				</tr>
-				<tr class="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0">
-					<th class="p-3 pl-0 text-left">Title</th>
-					<th class="p-3 pl-0 text-left">Publication</th>
-					<th class="p-3 pl-0 text-left" width="110px">Date</th>
-				</tr>
-        <tr class="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0">
-          <th class="p-3 pl-0 text-left">Title</th>
-          <th class="p-3 pl-0 text-left">Publication</th>
-          <th class="p-3 pl-0 text-left" width="110px">Date</th>
-      </tr>
-      <tr class="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0">
-          <th class="p-3 pl-0 text-left">Title</th>
-          <th class="p-3 pl-0 text-left">Publication</th>
-          <th class="p-3 pl-0 text-left" width="110px">Date</th>
-      </tr>
-			</thead>
-			<tbody class="flex-1 sm:flex-none">
-				<tr v-for="editorial in $page.editorial.edges" :key="editorial.id" class="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0 border-b relative">
-					<td><g-link class="block w-full h-full p-4 pl-0" :to="editorial.node.path">{{ editorial.node.title }}</g-link></td>
-					<td><g-link class="block w-full h-full p-4 pl-0" :to="editorial.node.path">{{ editorial.node.publication }}</g-link></td>
-					<td><g-link class="block w-full h-full p-4 pl-0" :to="editorial.node.path">{{ editorial.node.date }}</g-link></td>
-				</tr>
-			</tbody>
-		</table>
+    <div class="layout container mx-auto flex flex-col">
+      <table class="w-full flex flex-row flex-no-wrap overflow-hidden my-5 border-b">
+        <thead class="border-b border-t">
+          <tr  class="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0">
+            <th class="p-3 pl-0 text-left">Title</th>
+            <th class="p-3 pl-0 text-left">Publication</th>
+            <th class="p-3 pl-0 text-left" width="110px">Date</th>
+          </tr>
+          <tr class="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0">
+            <th class="p-3 pl-0 text-left">Title</th>
+            <th class="p-3 pl-0 text-left">Publication</th>
+            <th class="p-3 pl-0 text-left" width="110px">Date</th>
+          </tr>
+          <tr class="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0">
+            <th class="p-3 pl-0 text-left">Title</th>
+            <th class="p-3 pl-0 text-left">Publication</th>
+            <th class="p-3 pl-0 text-left" width="110px">Date</th>
+          </tr>
+          <tr class="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0">
+              <th class="p-3 pl-0 text-left">Title</th>
+              <th class="p-3 pl-0 text-left">Publication</th>
+              <th class="p-3 pl-0 text-left" width="110px">Date</th>
+          </tr>
+        </thead>
+        <tbody class="flex-1 sm:flex-none">
+          <tr v-for="editorial in $page.editorial.edges" :key="editorial.id" class="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0 border-b relative">
+            <td><g-link class="block w-full h-full p-4 pl-0" :to="editorial.node.path">{{ editorial.node.title }}</g-link></td>
+            <td><g-link class="block w-full h-full p-4 pl-0" :to="editorial.node.path">{{ editorial.node.publication }}</g-link></td>
+            <td><g-link class="block w-full h-full p-4 pl-0" :to="editorial.node.path">{{ editorial.node.date }}</g-link></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </Layout>
 </template>
