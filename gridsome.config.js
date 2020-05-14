@@ -43,6 +43,16 @@ module.exports = {
           // remark options
         }
       }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'carousel-items/**/*.md',
+        typeName: 'CarouselItem',
+        remark: {
+          // remark options
+        }
+      }
     }
   ],
   transformers: {

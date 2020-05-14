@@ -2,66 +2,37 @@
   <Layout class="min-h-screen home">
     <div class="layout container mx-auto">
       <flickity class="h-lg" ref="flickity" :options="flickityOptions">
-        <div class="carousel-cell w-full items-center flex justify-between relative">
-          <a href="#" class="absolute w-full h-full"></a>
+        <div v-for="carouselItem in $page.carouselItem.edges" :key="carouselItem.id" class="carousel-cell w-full items-center flex justify-between relative">
+          <a :href="carouselItem.node.link" class="absolute w-full h-full"></a>
           <div class="carousel__title">
             <h1 class="text-6xl">
-              <i>Vogue, </i>
-              <span>This is a test title</span>
+              <i>{{ carouselItem.node.publication }}, </i>
+              <span>{{ carouselItem.node.title }}</span>
             </h1>
           </div>
-          <img class="w-1/2 h-auto" src="https://i.picsum.photos/id/237/200/300.jpg" alt="alternative text">
-        </div>
-
-        <div class="carousel-cell w-full items-center flex justify-between relative">
-          <a href="#" class="absolute w-full h-full"></a>
-          <div class="carousel__title">
-            <h1 class="text-6xl">
-              <i>Vogue, </i>
-              <span>This is a test title</span>
-            </h1>
-          </div>
-          <img class="w-1/2 h-auto" src="https://i.picsum.photos/id/237/200/300.jpg" alt="alternative text">
-        </div>
-
-        <div class="carousel-cell w-full items-center flex justify-between relative">
-          <a href="#" class="absolute w-full h-full"></a>
-          <div class="carousel__title">
-            <h1 class="text-6xl">
-              <i>Vogue, </i>
-              <span>This is a test title</span>
-            </h1>
-          </div>
-          <img class="w-1/2 h-auto" src="https://i.picsum.photos/id/237/200/300.jpg" alt="alternative text">
-        </div>
-
-        <div class="carousel-cell w-full items-center flex justify-between relative">
-          <a href="#" class="absolute w-full h-full"></a>
-          <div class="carousel__title">
-            <h1 class="text-6xl">
-              <i>Vogue, </i>
-              <span>This is a test title</span>
-            </h1>
-          </div>
-          <img class="w-1/2 h-auto" src="https://i.picsum.photos/id/237/200/300.jpg" alt="alternative text">
-        </div>
-
-        <div class="carousel-cell w-full items-center flex justify-between relative">
-          <a href="#" class="absolute w-full h-full"></a>
-          <div class="carousel__title">
-            <h1 class="text-6xl">
-              <i>Vogue, </i>
-              <span>This is a test title</span>
-            </h1>
-          </div>
-          <img class="w-1/2 h-auto" src="https://i.picsum.photos/id/237/200/300.jpg" alt="alternative text">
+          <img class="w-1/2 h-auto" :src="carouselItem.node.image" alt="alternative text">
         </div>
       </flickity>
     </div>
   </Layout>
 </template>
 
-
+<page-query>
+  query CarouselItems {
+    carouselItem: allCarouselItem {
+      edges {
+        node {
+          id
+          title
+          path
+          image
+          publication
+          link
+        }
+      }
+    }
+  }
+</page-query>
 
 <script>
 import Flickity from 'vue-flickity';
@@ -69,18 +40,16 @@ export default {
    components: { 
     Flickity
   },
-  
+  created() {
+  },
   data() {
     return {
       flickityOptions: {
-        initialIndex: 3,
         prevNextButtons: false,
         pageDots: true,
         wrapAround: true,
         autoPlay: 1500,
         setGallerySize: false
-        
-        // any options from Flickity can be used
       }
     }
   },
