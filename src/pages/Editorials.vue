@@ -28,7 +28,7 @@
 				<tr v-for="editorial in $page.editorial.edges" :key="editorial.id" class="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0 border-b relative">
 					<td><g-link class="block w-full h-full p-4 pl-0" :to="editorial.node.path">{{ editorial.node.title }}</g-link></td>
 					<td><g-link class="block w-full h-full p-4 pl-0" :to="editorial.node.path">{{ editorial.node.publication }}</g-link></td>
-					<td><g-link class="block w-full h-full p-4 pl-0" :to="editorial.node.path">{{ date }}</g-link></td>
+					<td><g-link class="block w-full h-full p-4 pl-0" :to="editorial.node.path">{{ editorial.node.date }}</g-link></td>
 				</tr>
 			</tbody>
 		</table>
@@ -59,14 +59,12 @@ export default {
   },
   data() {
     return {
-      date: ""
     }
   },
   created() {
     this.$page.editorial.edges.forEach(post => {
       const parsedDate = new Date(post.node.date).toDateString();
       post.node.date = parsedDate;
-      this.date = parsedDate;
     });
   }
 }

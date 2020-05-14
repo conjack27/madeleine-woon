@@ -2,7 +2,7 @@
   <Layout>
    <div class="flex flex-col">
      <table class="w-full flex flex-row flex-no-wrap overflow-hidden my-5">
-			<thead class="border-b border-t">
+			<thead class="sm:border-b sm:border-t">
 				<tr v-for="commercial in $page.commercial.edges" :key="commercial.id" class="block border-b flex flex-col flex-no wrap sm:table-row sm:mb-0">
 					<th class="p-4 pl-0 text-left">Title</th>
 					<th class="p-4 pl-0 text-left">Publication</th>
@@ -13,7 +13,7 @@
 				<tr v-for="commercial in $page.commercial.edges" :key="commercial.id" class="flex flex-col flex-no wrap sm:table-row  sm:mb-0 border-b relative">
 					<td class="p-4 pl-0"><g-link class="block w-full h-full" :to="commercial.node.path">{{ commercial.node.title }}</g-link></td>
 					<td class="p-4 pl-0"><g-link class="block w-full h-full" :to="commercial.node.path">{{ commercial.node.publication }}</g-link></td>
-					<td class="p-4 pl-0"><g-link class="block w-full h-full" :to="commercial.node.path">{{ date }}</g-link></td>
+					<td class="p-4 pl-0"><g-link class="block w-full h-full" :to="commercial.node.path">{{ commercial.node.date }}</g-link></td>
 				</tr>
 			</tbody>
 		</table>
@@ -44,14 +44,12 @@ export default {
   },
   data() {
     return {
-      date: ""
     }
   },
   created() {
     this.$page.commercial.edges.forEach(post => {
       const parsedDate = new Date(post.node.date).toDateString();
       post.node.date = parsedDate;
-      this.date = parsedDate;
     });
   }
 }
