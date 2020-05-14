@@ -1,7 +1,7 @@
 <template>
-    <Layout :style="{ 'background-color': $page.editorial.color }">
+    <Layout class="min-h-screen" :style="{ 'background-color': $page.editorial.color }">
         <div  class="layout container mx-auto">
-            <div class="max-w-screen-md mb-8 mt-8 container mx-auto font-body article">
+            <div class="max-w-screen-md pb-8 mt-8 container mx-auto font-body article">
                 <h1 class="text-4xl text-center mb-8 font-bold">{{ $page.editorial.title }}</h1>
                 <div class="text-xl" v-html="$page.editorial.content"></div>
             </div>
@@ -30,7 +30,6 @@ export default {
     },
     data() {
         return {
-            bgColor: '#000000'
         }
     }
 }
