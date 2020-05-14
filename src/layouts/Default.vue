@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <header class="layout container mx-auto">
-      <nav class="flex items-center justify-between flex-wrap p-6 pl-0">
+      <nav class="flex items-center justify-between flex-wrap p-6 md:pl-0">
         <div class="flex items-center flex-shrink-0">
           <g-link to="/" class="font-semibold font-body text-xl tracking-tight">Madeleine Woon</g-link>
         </div>
