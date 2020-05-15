@@ -6,6 +6,14 @@
     url('../assets/fonts/whyte-book/Whyte-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
 
+@font-face {
+    font-family: Whyte-Medium;
+    src: url('../assets/fonts/whyte-medium/Whyte-Medium.otf');
+    src: url('../assets/fonts/whyte-medium/Whyte-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../assets/fonts/whyte-medium/Whyte-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../assets/fonts/whyte-medium/Whyte-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
 @tailwind base;
 
 @tailwind components;

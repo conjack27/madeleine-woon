@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     fontFamily: {
       body: ['Whyte-Book', 'sans-serif'],
+      heading: ['Whyte-Medium', 'sans-serif']
     },
     colors: {
       indigo: '#5c6ac4',
@@ -13,7 +14,7 @@ module.exports = {
       red: '#de3618',
       pink: '#F2D0C9',
       white: '#FFFFFF',
-      black: '#000000'
+      black: '#000000',
     },
     height: {
       lg: '700px',
