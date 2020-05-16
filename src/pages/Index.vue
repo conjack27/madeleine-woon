@@ -1,6 +1,6 @@
 <template>
   <Layout class="min-h-screen home">
-    <div class="layout container mx-auto">
+    <div class="layout container mx-auto pl-4 pr-4 md:pl-0 md:pr-0">
       <flickity class="h-lg" ref="flickity" :options="flickityOptions">
         <div v-for="carouselItem in $page.carouselItem.edges" :key="carouselItem.id" class="carousel-cell w-full items-center flex justify-between relative">
           <a :href="carouselItem.node.link" class="absolute w-full h-full"></a>

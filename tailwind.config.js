@@ -16,6 +16,10 @@ module.exports = {
       white: '#FFFFFF',
       black: '#000000',
     },
+    inset: {
+      '50': '50px',
+      '0': '0px'
+    },
     height: {
       lg: '700px',
       full: '100%',

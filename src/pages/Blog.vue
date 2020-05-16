@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="layout container mx-auto"></div>
+    <div class="layout container mx-auto pl-4 pr-4 md:pl-0 md:pr-0"></div>
    <div class="flex flex-col">
      <table class="w-full flex flex-row flex-no-wrap overflow-hidden my-5 border-b">
 			<thead class="border-b border-t">

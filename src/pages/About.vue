@@ -1,7 +1,7 @@
 <template>
   <Layout >
-    <div class="layout container mx-auto">
-      <div class="mb-8 mt-8 container mx-auto font-body flex flex-col items-center md:flex-row">
+    <div class="layout container mx-auto pl-4 pr-4 md:pl-0 md:pr-0">
+      <div class="mb-8 mt-8 font-body flex flex-col items-center md:flex-row">
         <img class="w-9/12 md:w-5/12 mb-4 md:mb-0" src="/uploads/website_pic-ff2247455ae13bace10f7bad78bc8029.jpg" alt="picture of me">
         <div class="ml-4 mr-4 text-lg leading-snug">
           <p class="mb-4">I’m a writer, editor and native English content specialist living in Amsterdam. </p>
