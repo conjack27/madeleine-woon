@@ -48,7 +48,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Articles'
+    title: 'Commercial Articles'
   },
   data() {
     return {
@@ -67,8 +67,6 @@ export default {
 
 <style>
 
-
-
   @media (min-width: 640px) {
     table {
       display: inline-table !important;
@@ -76,6 +74,5 @@ export default {
     thead tr:not(:first-child) {
       display: none;
     }
-    
   }
 </style>
