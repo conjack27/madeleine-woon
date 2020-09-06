@@ -8,10 +8,10 @@
   },
   "dependencies": {
     "@gridsome/source-filesystem": "^0.6.2",
-    "@gridsome/transformer-remark": "^0.5.0",
-    "gridsome": "^0.7.19",
+    "@gridsome/transformer-remark": "^0.6.2",
+    "gridsome": "^0.7.20",
     "minimist": "^1.2.5",
-    "tailwindcss": "^1.5.1",
+    "tailwindcss": "^1.8.3",
     "vue-flickity": "^1.2.1"
   },
   "devDependencies": {
