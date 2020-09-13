@@ -1,6 +1,6 @@
 ---
-title: An Article I wrote
+title: Tommy Ton Interview
 publication: Harpers Bazaar
 link: uploads/sample.pdf
-image: /uploads/553c8de6d20f84a1367e5bee36bcfac3.jpg
+image: /uploads/harpers_bazaar_tommy_ton.jpg
 ---
