@@ -1,6 +1,6 @@
 ---
-title: Another article I wrote
-publication: Vogue
+title: The Changing Face of Lingerie
+publication: Harper's Bazaar
 link: /uploads/sample.pdf
-image: /uploads/17170622914765.5631a5a0706eb.jpg
+image: /uploads/harpers_bazaar_lingerie_feature1.jpg
 ---
