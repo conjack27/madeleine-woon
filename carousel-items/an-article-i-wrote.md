@@ -1,6 +1,6 @@
 ---
 title: Tommy Ton Interview
 publication: Harper's Bazaar, Australia
-link: uploads/sample.pdf
+link: http://www.madeleinewoon.com/editorials/editorial-article/
 image: /uploads/harpers_bazaar_tommy_ton.jpg
 ---
