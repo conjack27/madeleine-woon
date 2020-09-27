@@ -1,5 +1,5 @@
 ---
-title: adidas by Stella McCartney copy elevation
+title: "Copywriting Project: adidas by Stella McCartney copy elevation"
 publication: adidas
 color: "#FCF4CF"
 date: 2020-05-06T13:02:34.470Z
