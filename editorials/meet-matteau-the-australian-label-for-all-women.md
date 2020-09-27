@@ -1,5 +1,5 @@
 ---
-title: Meet Matteau is the Australian Label for All Women
+title: Matteau's Foray Into Ready-To-Wear Set Fashion Week Alight
 publication: ELLE Magazine, Australia
 color: "#DB1313"
 date: 2019-09-01T13:51:21.832Z
