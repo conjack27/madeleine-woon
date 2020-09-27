@@ -7,3 +7,5 @@ date: 2019-04-17T13:10:52.688Z
 ![](/uploads/harpers_bazaar_lingerie_feature1.jpg)
 
 ![](/uploads/harpers_bazaar_lingerie_feature2.jpg)
+
+*<centre> This article originally appeared in the May 2019 print issue of Harper's Bazaar, Australia. </centre>*
