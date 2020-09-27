@@ -1,5 +1,5 @@
 ---
-title: "Branded Content: Chanel Lipstick on THE FILE"
+title: "Branded Content: Chanel x THE FILE"
 publication: Chanel
 date: 2020-09-27T15:06:52.666Z
 ---
