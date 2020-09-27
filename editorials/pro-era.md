@@ -1,5 +1,5 @@
 ---
-title: Pro Era
+title: The Pro Era Crew On Donald Trump, Quitting The Internet & Black Identity
 publication: Oyster Magazine
 color: FFBD00
 date: 2016-08-31T22:00:00.000Z
