@@ -1,5 +1,5 @@
 ---
-title: Street Style Photographer Tommy Ton on Making the Switch to Design
+title: Street Style Photographer Tommy Ton Makes the Switch to Design
 publication: "Harper's Bazaar, Australia "
 color: "#F48646"
 date: 2019-04-01T13:01:41.398Z
