@@ -1,5 +1,5 @@
 ---
-title: Bianca Balti
+title: Bianca Balti is Changing the Conversation Around Maternity Fashion
 publication: Harper's Bazaar, Australia
 color: CDE5D7
 date: 2020-09-27T13:55:42.277Z
