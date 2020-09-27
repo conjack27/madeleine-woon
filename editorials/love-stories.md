@@ -1,5 +1,5 @@
 ---
-title: Love Stories
+title: "Love Stories: 6 Creatives on What the L-Word Means to Them"
 publication: JONES Magazine
 color: ECFEAA
 date: 2018-10-22T14:27:15.330Z
