@@ -2,7 +2,7 @@
 title: Kilo Kish On The Benefits Of Being Billion-Dimensional
 publication: Oyster Magazine
 color: A1E44E
-date: 2020-09-27T14:11:16.338Z
+date: 2016-08-01T14:11:16.338Z
 ---
 ![](/uploads/oyster_kilo_kish_interview1.jpg)
 
