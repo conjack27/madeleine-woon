@@ -1,5 +1,5 @@
 ---
-title: Bianca Balti
+title: Bianca Balti Interview
 publication: Harper's Bazaar, Australia
 link: https://www.madeleinewoon.com/editorials/bianca-balti/
 image: /uploads/bianca-balti-maternity1.jpg
