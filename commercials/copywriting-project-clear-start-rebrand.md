@@ -1,5 +1,5 @@
 ---
-title: "Copywriting Project: Clear Start Rebrand"
+title: "Copywriting Project: Clear Start Relaunch"
 publication: Dermalogica
 date: 2020-10-06T06:18:43.980Z
 ---
