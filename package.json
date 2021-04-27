@@ -16,8 +16,8 @@
     "vue-flickity": "^1.2.1"
   },
   "devDependencies": {
-    "flickity": "^2.2.1",
     "bl": "2.2.1",
+    "flickity": "^2.2.1",
     "gridsome-plugin-tailwindcss": "^2.2.48"
   }
 }
